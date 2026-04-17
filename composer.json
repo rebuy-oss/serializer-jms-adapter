@@ -1,5 +1,5 @@
 {
-    "name": "liip/serializer-jms-adapter",
+    "name": "rebuy/serializer-jms-adapter",
     "description": "Adapter to use liip/serializer in place of jms/serializer.",
     "type": "library",
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Liip AG",
             "homepage": "http://www.liip.ch"
+        },
+        {
+            "name": "rebuy recommerce GmbH",
+            "homepage": "https://www.rebuy.com"
         }
     ],
     "support": {
@@ -17,7 +21,7 @@
         "php": "^8.0",
         "ext-json": "*",
         "jms/serializer": "^2.0 || ^3.0",
-        "liip/serializer": "^1.0 || ^2.0 || ^3.0",
+        "rebuy/serializer": "^1.0 || ^2.0 || ^3.0",
         "pnz/json-exception": "^1.0",
         "psr/log": "^1 | ^2 | ^3"
     },
@@ -37,6 +41,9 @@
         "psr-4": {
             "Tests\\Liip\\Serializer\\Adapter\\JMS\\": "tests/"
         }
+    },
+    "replace": {
+        "liip/serializer-jms-adapter": "*"
     },
     "scripts": {
         "cs:fix": "vendor/bin/php-cs-fixer fix -v",
