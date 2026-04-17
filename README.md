@@ -1,5 +1,8 @@
 # Liip Serializer JMS Adapter
 
+> [!NOTE]
+> This project is based on the original work of [liip/serializer-jms-adapter](https://github.com/liip/serializer-jms-adapter). This repository is the actively maintained continuation of that project.
+
 An adapter to make [liip/serializer](https://github.com/liip/serializer) a drop-in replacement for [jms/serializer](https://github.com/schmittjoh/serializer).
 
 Version 1 of this adapter is for integrating JMS Serializer version 1, and version 2
