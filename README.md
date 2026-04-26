@@ -3,7 +3,7 @@
 > [!NOTE]
 > This project is based on the original work of [liip/serializer-jms-adapter](https://github.com/liip/serializer-jms-adapter). This repository is the actively maintained continuation of that project.
 
-An adapter to make [liip/serializer](https://github.com/liip/serializer) a drop-in replacement for [jms/serializer](https://github.com/schmittjoh/serializer).
+An adapter to make [rebuy/serializer](https://github.com/rebuy-oss/serializer) a drop-in replacement for [jms/serializer](https://github.com/schmittjoh/serializer).
 
 Version 1 of this adapter is for integrating JMS Serializer version 1, and version 2
 for JMS Serializer version 2 and 3. (Because there are BC breaks in the interfaces of JMS
@@ -24,7 +24,7 @@ use JMS\Serializer\Serializer as JMSSerializer;
 use Liip\Serializer\Adapter\JMS\JMSSerializerAdapter;
 use Liip\Serializer\Serializer as LiipSerializer;
 
-// see https://github.com/liip/serializer/ for how to set up the Liip Serializer
+// see https://github.com/rebuy-oss/serializer/ for how to set up the Liip Serializer
 $liipSerializer = new LiipSerializer(...);
 // see https://jmsyst.com/libs/serializer for how to set up JMS Serializer
 $jmsSerializer = new JMSSerializer(...);
