@@ -4,6 +4,15 @@ Changelog
 2.x
 ===
 
+2.3.0 (unreleased)
+------------------
+
+* Maintenance of this library has been taken over by rebuy. The package has been  renamed from  `liip/serializer-jms-adapter`
+  to `rebuy/serializer-jms-adapter`. The PHP namespace `Liip\Serializer` is kept unchanged for now to allow a smooth transition.
+
+  All entries below this version were released under the original `liip/serializer-jms-adapter` package name and are kept here
+  for historical reference.
+
 2.2.3
 -----
 
