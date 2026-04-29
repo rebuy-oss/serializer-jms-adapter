@@ -1,21 +1,23 @@
 {
     "name": "rebuy/serializer-jms-adapter",
-    "description": "Adapter to use liip/serializer in place of jms/serializer.",
+    "description": "Adapter to use rebuy/serializer in place of jms/serializer.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Liip AG",
-            "homepage": "http://www.liip.ch"
+            "homepage": "http://www.liip.ch",
+            "role": "Original Development (discontinued)"
         },
         {
             "name": "rebuy recommerce GmbH",
-            "homepage": "https://www.rebuy.com"
+            "homepage": "https://www.rebuy.com",
+            "role": "Maintainer"
         }
     ],
     "support": {
-        "source": "https://github.com/liip/serializer-jms-adapter",
-        "issues": "https://github.com/liip/serializer-jms-adapter/issues"
+        "source": "https://github.com/rebuy-oss/serializer-jms-adapter",
+        "issues": "https://github.com/rebuy-oss/serializer-jms-adapter/issues"
     },
     "require": {
         "php": "^8.0",
